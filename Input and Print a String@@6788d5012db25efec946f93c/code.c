@@ -4,8 +4,8 @@
 
 
 int main() {
-    char str;
-    scanf("%s",&str);
+    char str[100];
+    scanf("%s",str);
 
     printf("You entered: %s\n", str);
 
