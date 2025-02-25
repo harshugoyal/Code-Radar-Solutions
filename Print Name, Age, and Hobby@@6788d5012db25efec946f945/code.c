@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    ch a[10],b[10];
+    char a[10],b[10];
     int c;
     scanf("%s %s %d",&a,&b,&c);
     printf("Name\n: ",a);
