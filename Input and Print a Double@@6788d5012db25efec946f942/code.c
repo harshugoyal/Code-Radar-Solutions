@@ -1,8 +1,11 @@
-// Your code here...
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     float h;
-    scanf("%lf",&h);
-    printf("You entered: %.4lf\n",h);
+    
+    scanf("%f", &h);  // Correctly reading a float
+    
+    printf("You entered: %.4f\n", h);  // Use %.4f instead of %.4lf
+    
     return 0;
 }
