@@ -21,18 +21,3 @@ void printArray(int arr[], int n) {
     printf("\n");
 }
 
-int main() {
-    int n;
-    scanf("%d", &n);
-    
-    int arr[n];  // Correct declaration
-    
-    for (int i = 0; i < n; i++) {  // Fixed loop condition
-        scanf("%d", &arr[i]);
-    }
-
-    bubbleSort(arr, n);
-    printArray(arr, n);
-
-    return 0;
-}
