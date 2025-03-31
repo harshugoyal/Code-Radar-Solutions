@@ -5,7 +5,7 @@ void fibonacciSeries(int n){
         if(i==0){
          printf("%d",first);
         }
-        elseif(i==1){
+        else if(i==1){
             printf("%d",second);
         }
         else{
