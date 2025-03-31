@@ -12,9 +12,9 @@ void fibonacciSeries(int n){
             next=first+second;
             first=second;
             second=next;
-            printf("%d",next);
+            printf("%d ",next);
         }
-        printf("\n");
+        
 
 
     }
