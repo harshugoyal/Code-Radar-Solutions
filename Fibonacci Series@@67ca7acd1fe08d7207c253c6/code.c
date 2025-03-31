@@ -1,7 +1,7 @@
 // Your code here...
-void fibonacciSeries(n){
+void fibonacciSeries(int n){
     int first=0,second=1,next;
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         if(i==0){
          printf("%d",first);
         }
@@ -15,7 +15,7 @@ void fibonacciSeries(n){
             printf("%d",next);
         }
         printf("\n")
-        
+
 
     }
     
